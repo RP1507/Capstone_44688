@@ -84,7 +84,7 @@ After looking at the data above, it was time to start looking at how the data fi
 
 * ACT Scores Correlation chart and heat map. As observed below, all features had a least a small positive correlation with the dependent variable of retention.
 
-![ACT Scores Correlation Table](./Images/ACTScoresCorr.JPG)
+![ACT Scores Correlation Table](./Images/ACTScoreCorr.JPG)
 ![ACT Scores Correlation Heat Map](./Images/ACTScoresCorrChart.JPG)
 
 * ACT Received Correlation chart and heat map. Again, here you can see the negative correlation between the test received and retention. All other variables as seen before.
