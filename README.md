@@ -91,6 +91,9 @@ After looking at the data above, it was time to start looking at how the data fi
 
 ![ACT Received Correlation Table](./Images/ACTReceivedCorr.JPG)
 ![ACT Received Correlation Heat Map](./Images/ACTReceivedCorrChart.JPG)
-  
-  
 
+### Model Building
+
+There were 4 models ultimately built and tested. All used the sklearn library in Python. Each used the train/test split for the data set. 20 percent of the data was used in the test set. The models that were built were a Linear Regression model, Decision Tree, Neural Net, and ADA boosted. The code for each model can be found in module 5 folder, and the final iteration in the module 6 folder. The linear regression model performed by far the worst and was eliminated from contention. The other three models can be seen compared below. We can see that the Decision Tree model performed the best on the train, but the worst on the test, showing that it was overfitting. From the other two they performed very close, with the slight edge going to the ADA model, even though it still was only at about a 67% accuracy overall. 
+
+![Comparison of Models Performance](./Images/ModelComparisons.JPG)
