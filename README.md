@@ -110,5 +110,25 @@ Another item that we can observe, was one of the first thing produced by each mo
 
 ### Discussion
 
+The initial problem that was focused on, was to see if a machine learning model could accurately predict if a student at Westminster would not be retained. There were four models tested to see how they would function on the features that were selected: ACT score, High school GPA, Athlete, Gender, Resident. The top performing model (ADA Boosted) was only able to identify the students accurately a little more than two thirds of the time. Although this could be helpful to the administration, it would be best to examine additional features to try and better the model's accuracy. 
+
+One limitation of the current project, was the size of the data set. The data set focused on a ten year span of students at Westminster College. For future research, the pool should be expanded to account for a larger time period that the database houses. This would give additional data points to work with. Another limitation of this project, was the lack of financial data. Affordability to higher education can be a crucial factor, but at the time of this project, access was not available for household income, or financial aid packaging.
+
+As discussed in the limitations section, much of that would be beneficial to see in the future work of this study. The database contains student data as far back as 1999. Expanding the data set would be the first thing to easily generate aa larger sample size for the data set. To go any further back, it would have to examined where data was stored prior to the move to the current database system, however, any farther back than that may not necessarily be timely the further back we go. Another recommendation would be working with financial aid, and being able to gather data from their system. Being able to add in data about household income and student packaging to gather loan data as well as scholarships and grants would be useful to see how it would affect the model's performance. Additional data points could be identified, such as first generation student, and added into the data sets features, or swapped out entirely, if it is determined to be much more correlated. Taking into the model these considerations would be interesting to see how the model performs in the future
+
 ### References
+
+1. Act scores drop for 6th straight year (October 2023), https://www.northwestmoinfo.
+com/local-news/act-scores-drop-for-6th-straight-year/
+2. Current term enrollment estimates (May 2023), https://nscresearchcenter.org/
+current-term-enrollment-estimates/
+3. Castillo, E.: Act scores hit 30-year low (October 2023), https://www.bestcolleges.
+com/news/act-test-scores-hit-30-year-low
+4. Knox, L.: Leveling off on the bottom (May 2023), https://www.insidehighered.com/
+news/admissions/traditional-age/2023/05/24/leveling-bottom
+5. Seltzer, R.: Birth dearth approaches (December
+2020), https://www.insidehighered.com/news/2020/12/15/
+more-high-school-graduates-through-2025-pool-still-shrinks-afterward
+
+
 
