@@ -51,8 +51,46 @@ All the data was sourced from our own databases. There were two databases one th
 
 ### Data Cleaning
 
-We wanted to take a look at what the data was looking like. There were several things to look at first. One was to remove duplicates, the other was to fix and replace null values. Below are a couple snips of the code used to analyze the data. 
+We wanted to take a look at what the data was looking like. There were several things to look at first. One was to remove duplicates, the other was to fix and replace null values. The data was read into Python using a pandas dataframe. Below are a couple snips of the code used to analyze the data. 
 
 * Checking columns for null data and replacing with the mean
   
 ![Checking for Null data and Replacing with Mean](./Images/NullData.png)
+
+Once all the duplicates were removed and the null values replaced with the averages, it was time to start exploring the data.
+
+### Exploritory Data Analysis
+
+In this section we wanted to see how the data was looking, if there were any outliers that needed further cleaning, and how the data was initialy grouping togehter. Below are some of the exploring that was done. The matplotlib was used to create the charts. 
+
+-- Looking for outliers --
+* A Box plot looking at the ACT Scores. This one shows the data falls within a reasonable range.
+
+  ![ACT Box Plot](./Images/ACTBoxPlot.JPG)
+
+* Next we wanted to see how the scores grouped togehter with a histogram. It was a fairly normal distribution with a higher bucket where the nulls were replaced with the average.
+
+  ![ACT Histogram](./Images/ACTHistogram.JPG)
+
+* Similarly the high school GPA was examined. We looked at a box plot of those. The data was also pretty normal, nothing out of the low range, and the upper range was from high schools that used weighted GPA scales.
+
+  ![GPA Box Plot](./Images/GPABoxPlot.JPG)
+
+* Simalraly we wanted to see how the GPA grouped togehter with a histogram like ACT scores. It was a more of a left skewed distribution again with a higher bucket where the nulls were replaced with the average.
+
+![GPA Histogram](./Images/GPAHistogram.JPG)
+
+After looking at the data above, it was time to start looking at how the data fit together. A heat chart and correlation chart were created to see how the correlated the features were with each other and importantly retention. One was ran for ACT Scores and on for ACT Test received. The latter shows a negative correlation with retention as you will see in the images below. The models going forward will focus on ACT Score going forward.
+
+* ACT Scores Correlation chart and heat map. As observed below, all features had a least a small positive correlation with the dependent variable of retention.
+
+![GPA Histogram](./Images/ACTScoresCorr.JPG)
+![GPA Histogram](./Images/ACTScoresCorrChart.JPG)
+
+* ACT Received Correlation chart and heat map. Again, here you can see the negative correlation between the test received and retention. All other variables as seen before.
+
+![GPA Histogram](./Images/ACTReceivedCorr.JPG)
+![GPA Histogram](./Images/ACTReceivedCorrChart.JPG)
+  
+  
+
