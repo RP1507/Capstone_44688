@@ -20,3 +20,5 @@ In this section, exploritory data analysis occured. Several charts such as box p
 ### Module 5
 
 We begin to look at various models for the predictive analysis section. Here we looked at a linear regression model, a decision tree model, a neural net model, and an ADA boosted model. The results were printed along with each model.
+
+### Module 6
