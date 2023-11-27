@@ -1,5 +1,5 @@
 # Capstone_44688
-capstone project for MS Data Analytics Program
+Capstone Project for the MS Data Analytics Program
 
 The report was written in overleaf editor. You can access the report, and the latex editor with the link below.
 
