@@ -97,3 +97,18 @@ After looking at the data above, it was time to start looking at how the data fi
 There were 4 models ultimately built and tested. All used the sklearn library in Python. Each used the train/test split for the data set. 20 percent of the data was used in the test set. The models that were built were a Linear Regression model, Decision Tree, Neural Net, and ADA boosted. The code for each model can be found in module 5 folder, and the final iteration in the module 6 folder. The linear regression model performed by far the worst and was eliminated from contention. The other three models can be seen compared below. We can see that the Decision Tree model performed the best on the train, but the worst on the test, showing that it was overfitting. From the other two they performed very close, with the slight edge going to the ADA model, even though it still was only at about a 67% accuracy overall. 
 
 ![Comparison of Models Performance](./Images/ModelComparisons.JPG)
+
+### Results
+
+As seen a bit above, the ADA model was the best performing. Even though it was the best, it did not provide us with conclusive results at this time. It may be a start for adminstistration to look at as it is better a bit over half the time, so any identified student at risk of churn would be helpful. Below we can see how the model performed along with it's confusion matrix.
+
+![ADA Model Results](./Images/ADAResults.JPG)
+
+Another item that we can observe, was one of the first thing produced by each model, which was a confusion matrix. Below we can see the results as shown in that matrix. Note that the model predicted 94 or 9 percent True Positives (not retained), 298 or 29 percent False Positive (as retained but were actually not), 54 or 5 percent False Negative (as not retained but were actually retained), and finally 567 or 56 percent True Negative (as retained).
+
+![ADA Model Confusion Matrix Pie Chart](./Images/ConfusionMatrixADA.JPG)
+
+### Discussion
+
+### References
+
