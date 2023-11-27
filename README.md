@@ -66,7 +66,7 @@ In this section we wanted to see how the data was looking, if there were any out
 -- Looking for outliers --
 * A Box plot looking at the ACT Scores. This one shows the data falls within a reasonable range.
 
-  ![ACT Box Plot](./Images/ACTBoxPlot.JPG)
+  ![ACT Box Plot](./Images/ACTBoxplot.JPG)
 
 * Next we wanted to see how the scores grouped togehter with a histogram. It was a fairly normal distribution with a higher bucket where the nulls were replaced with the average.
 
@@ -74,7 +74,7 @@ In this section we wanted to see how the data was looking, if there were any out
 
 * Similarly the high school GPA was examined. We looked at a box plot of those. The data was also pretty normal, nothing out of the low range, and the upper range was from high schools that used weighted GPA scales.
 
-  ![GPA Box Plot](./Images/GPABoxPlot.JPG)
+  ![GPA Box Plot](./Images/GPABoxplot.JPG)
 
 * Simalraly we wanted to see how the GPA grouped togehter with a histogram like ACT scores. It was a more of a left skewed distribution again with a higher bucket where the nulls were replaced with the average.
 
@@ -84,13 +84,13 @@ After looking at the data above, it was time to start looking at how the data fi
 
 * ACT Scores Correlation chart and heat map. As observed below, all features had a least a small positive correlation with the dependent variable of retention.
 
-![GPA Histogram](./Images/ACTScoresCorr.JPG)
-![GPA Histogram](./Images/ACTScoresCorrChart.JPG)
+![ACT Scores Correlation Table](./Images/ACTScoresCorr.JPG)
+![ACT Scores Correlation Heat Map](./Images/ACTScoresCorrChart.JPG)
 
 * ACT Received Correlation chart and heat map. Again, here you can see the negative correlation between the test received and retention. All other variables as seen before.
 
-![GPA Histogram](./Images/ACTReceivedCorr.JPG)
-![GPA Histogram](./Images/ACTReceivedCorrChart.JPG)
+![ACT Received Correlation Table](./Images/ACTReceivedCorr.JPG)
+![ACT Received Correlation Heat Map](./Images/ACTReceivedCorrChart.JPG)
   
   
 
