@@ -28,3 +28,13 @@ We begin to look at various models for the predictive analysis section. Here we 
 ### Module 6
 
 In this section, the results are discussed. The best model was chosen which was the ADA Boosted Model. Even though it was the top performing model, it was only successful about two thirds of the time. Some items to think about moving forward are expanding the data set size, as this one had a range of 10 years. Also, would add in financial data from our Financial Aid system such as household income, scholarships received, loans taken out, and other grants. Ideally we would like to see this added in to see if we can get the models performance to increase.
+
+# Westminster College: A Retention Prediction Model
+
+### Author: Ryan Smith
+
+### Abstract
+
+In the ever competing world for enrollment in higher education, retention is becoming a primary focus. This project examines building a model to predict if a student will not be retained at Westminster College. The study will focus on a variety of factors for a student to see if they will churn from the institution. The data was sourced from the local databases, and cleaned using Python. Several models were compared (Linear Regression, Decision Tree, Neural Net, ADA Boosted) from the sklearn library. There appeared to be a correlation between several features and retention, but the results were not strong in the models. More features should be explored, such as household income and aid received to see if the models can be enhanced.
+
+
