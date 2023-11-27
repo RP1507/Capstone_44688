@@ -44,3 +44,11 @@ For this project, we want to see if retention can be predicted at Westminster Co
 ### Introduction
 
 This project will be looking to successfully predict if a student is at risk of being retained. We can use this data with our Student Success Center so that they can set up an intervention, or take the appropriate actions to ensure they can help the student persist. After gathering all the data to analyze, a model will be built and trained on train data, and then tested. After the model is completed, we can discuss the results and see how the model performed. 
+
+### Data Sourcing
+
+All the data was sourced from our own databases. There were two databases one that is our student information system, and the other for enrollment. They were joined with student id number. SQL server was used to collect the data from the databases. Once the data was retreived from the databases, it was exported to a .csv file so that Python could be used for the data cleaning and analytics.
+
+### Data Cleaning
+
+
