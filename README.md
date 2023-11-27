@@ -47,8 +47,10 @@ This project will be looking to successfully predict if a student is at risk of 
 
 ### Data Sourcing
 
-All the data was sourced from our own databases. There were two databases one that is our student information system, and the other for enrollment. They were joined with student id number. SQL server was used to collect the data from the databases. Once the data was retreived from the databases, it was exported to a .csv file so that Python could be used for the data cleaning and analytics.
+All the data was sourced from our own databases. There were two databases one that is our student information system, and the other for enrollment. They were joined with student id number. SQL server was used to collect the data from the databases. Once the data was retreived from the databases, it was exported to a .csv file so that Python could be used for the data cleaning and analytics. The data sets with anonymized student id can be found in each module folder. 
 
 ### Data Cleaning
 
+We wanted to take a look at what the data was looking like. There were several things to look at first. One was to remove duplicates, the other was to fix and replace null values. Below are a couple snips of the code used to analyze the data. 
 
+* Checking columns for null data and replacing with the mean
