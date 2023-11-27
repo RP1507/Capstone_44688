@@ -118,17 +118,11 @@ As discussed in the limitations section, much of that would be beneficial to see
 
 ### References
 
-1. Act scores drop for 6th straight year (October 2023), https://www.northwestmoinfo.
-com/local-news/act-scores-drop-for-6th-straight-year/
-2. Current term enrollment estimates (May 2023), https://nscresearchcenter.org/
-current-term-enrollment-estimates/
-3. Castillo, E.: Act scores hit 30-year low (October 2023), https://www.bestcolleges.
-com/news/act-test-scores-hit-30-year-low
-4. Knox, L.: Leveling off on the bottom (May 2023), https://www.insidehighered.com/
-news/admissions/traditional-age/2023/05/24/leveling-bottom
-5. Seltzer, R.: Birth dearth approaches (December
-2020), https://www.insidehighered.com/news/2020/12/15/
-more-high-school-graduates-through-2025-pool-still-shrinks-afterward
+1. Act scores drop for 6th straight year (October 2023), https://www.northwestmoinfo.com/local-news/act-scores-drop-for-6th-straight-year/
+2. Current term enrollment estimates (May 2023), https://nscresearchcenter.org/current-term-enrollment-estimates/
+3. Castillo, E.: Act scores hit 30-year low (October 2023), https://www.bestcolleges.com/news/act-test-scores-hit-30-year-low
+4. Knox, L.: Leveling off on the bottom (May 2023), https://www.insidehighered.com/news/admissions/traditional-age/2023/05/24/leveling-bottom
+5. Seltzer, R.: Birth dearth approaches (December 2020), https://www.insidehighered.com/news/2020/12/15/more-high-school-graduates-through-2025-pool-still-shrinks-afterward
 
 
 
