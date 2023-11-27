@@ -54,4 +54,5 @@ All the data was sourced from our own databases. There were two databases one th
 We wanted to take a look at what the data was looking like. There were several things to look at first. One was to remove duplicates, the other was to fix and replace null values. Below are a couple snips of the code used to analyze the data. 
 
 * Checking columns for null data and replacing with the mean
+  
 ![Checking for Null data and Replacing with Mean](./Images/NullData.png)
