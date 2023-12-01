@@ -1,7 +1,7 @@
 # Capstone_44688
 Capstone Project for the MS Data Analytics Program
 
-The report was written in overleaf editor. You can access the report, and the latex editor with the link below. The final pdf copy can be found in the Module 6 folder above.
+The report was written in overleaf editor. You can access the report, and the latex editor with the link below. The final pdf copy can be found in the Module 6 folder above. The revised Final Copy from peer feedback will be found in Module 7 folder. Each module contains the interitive notebook of Python code up to that point along with the data set. The final version of the notebook is also placed in Module 6 folder.
 
 https://www.overleaf.com/read/zgyxrgsvgnbg#cc7944
 
